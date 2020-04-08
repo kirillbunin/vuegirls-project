@@ -16,6 +16,9 @@ export default {
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
+  css: [
+    '~/assets/main.css'
+  ],
   /*
    ** Customize the progress-bar color
    */
@@ -33,7 +36,7 @@ export default {
    */
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
-    '@nuxtjs/eslint-module',
+    ['@nuxtjs/eslint-module', { fix: true }],
     // Doc: https://github.com/nuxt-community/stylelint-module
     '@nuxtjs/stylelint-module'
   ],
