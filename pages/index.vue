@@ -3,7 +3,7 @@
     <div>
       <logo />
       <h1 class="title">
-        Hello people
+        Hello World
       </h1>
       <h2 class="subtitle">
         My smashing Nuxt.js project
@@ -52,7 +52,6 @@ export default {
   font-size: 100px;
   color: #35495e;
   letter-spacing: 1px;
-  background: red;
 }
 
 .subtitle {
