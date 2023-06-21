@@ -16,7 +16,7 @@
     "*.{css,vue}": "stylelint"
   },
   "dependencies": {
-    "nuxt": "^2.0.0"
+    "nuxt": "^3.4.3"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^2.0.0",
